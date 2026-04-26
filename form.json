@@ -1,0 +1,94 @@
+{
+  "title": "Step 3 of 4: Destination",
+  "subtitle": "Next: Sender",
+  "submitLabel": "Submit",
+  "fields": [
+    {
+      "id": "postcode-address",
+      "label": "Postcode or address search",
+      "type": "free-full",
+      "required": false
+    },
+    {
+      "id": "recipient-name",
+      "label": "Recipient name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "company-name",
+      "label": "Or company name",
+      "type": "free-full",
+      "required": false
+    },
+    {
+      "id": "recipient-email",
+      "label": "Recipient email",
+      "type": "email",
+      "required": false
+    },
+    {
+      "id": "recipient-phone",
+      "label": "Recipient phone number",
+      "type": "split",
+      "required": false,
+      "pattern": "NNN NNN NNNN"
+    }
+  ],
+  "optionSets": {
+    "provinces": [
+      {
+        "value": "AB",
+        "label": "AB – Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "BC – British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "MB – Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "NB – New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "NL – Newfoundland & Labrador"
+      },
+      {
+        "value": "NS",
+        "label": "NS – Nova Scotia"
+      },
+      {
+        "value": "NT",
+        "label": "NT – Northwest Territories"
+      },
+      {
+        "value": "NU",
+        "label": "NU – Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "ON – Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "PE – Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "QC – Québec"
+      },
+      {
+        "value": "SK",
+        "label": "SK – Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "YT – Yukon"
+      }
+    ]
+  }
+}
